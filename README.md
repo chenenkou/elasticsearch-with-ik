@@ -22,6 +22,17 @@ cd /opt && ./elasticsearch/bin/elasticsearch
 
 ```
 
+### Head插件安装
+
+在 elasticsearch/bin 目录下执行下面的命令：
+```
+plugin install mobz/elasticsearch-head
+```
+安装成功后，启动 Elasticsearch, 然后在浏览器中输入：
+```
+http://127.0.0.1:9200/_plugin/head/
+```
+
 ### 使用
 
 新建一个名为libraray的索引
